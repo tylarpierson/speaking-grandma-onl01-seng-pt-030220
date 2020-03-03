@@ -12,14 +12,14 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-def speak_to_grandma()
-  if speak_to_grandma == "Hi, Nana, how are you?"
+def speak_to_grandma(speak="I LOVE YOU GRANDMA!")
+  if speak == "Hi, Nana, how are you?"
     puts "HUH?! SPEAK UP, SONNY!"
-  elseif speak_to_grandma == "Hi!"
+  elsif speak == "Hi!"
     puts "HUH?! SPEAK UP, SONNY!"
-  elseif speak_to_grandma == "WHAT DID YOU EAT TODAY?"
+  elsif speak == "WHAT DID YOU EAT TODAY?"
     puts "NO, NOT SINCE 1938!"
-  elseif speak_to_grandma == "WHAT?"
+  elsif speak == "WHAT?"
     puts "NO, NOT SINCE 1938!"
   else 
     puts "I LOVE YOU TOO PUMPKIN"
